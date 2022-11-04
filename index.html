@@ -1,0 +1,49 @@
+                        <!--  https://rishadpvm.github.io/calculator/index.html  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+   <div class="conntaner">
+       <input class="display" id="display" type="text">
+       
+       <div class="rows">
+           <div class="c-button" onclick="clear_display()">C</div>
+           <div style="padding: 14px 8.4%;" class="button"onclick="but_click('%')">%</div>
+           <div class="button"onclick="but_click('/')">/</div>
+    </div>
+    <div class="rows">
+        <div class="button" onclick="but_click(7)">7</div>
+        <div class="button" onclick="but_click(8)">8</div>
+        <div class="button"onclick="but_click(9)">9</div>
+        <div class="button"onclick="but_click('*')">x</div>
+    </div>
+    <div class="rows">
+        <div class="button"onclick="but_click(4)">4</div>
+        <div class="button"onclick="but_click(5)">5</div>
+        <div class="button"onclick="but_click(6)">6</div>
+        <div class="button"onclick="but_click('-')">-</div>
+    </div>
+    <div class="rows">
+        <div class="button"onclick="but_click(1)">1</div>
+        <div class="button"onclick="but_click(2)">2</div>
+        <div class="button"onclick="but_click(3)">3</div>
+        <div class="button"onclick="but_click('+')">+</div> 
+    </div>
+    <div class="rows">
+        <div class="button"onclick="but_click(0)">0</div>
+        <div style="padding:14px 8%;" class="button"onclick="but_click('00')">00</div>
+        <div class="button"onclick="but_click('.')">.</div>
+        <div style="padding: 14px 8.6%; background-color: lightseagreen;" class="button" onclick="equalClick()">=</div>
+    </div>
+
+   </div>
+</body>
+</html>
